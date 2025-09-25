@@ -65,11 +65,11 @@ c)make app.py as system service
 1)send mail message "trigger" to mail configured in app.py
 2)After some time you will get URL reply from your system to your Gmail. Use that URL to access your PC globally
 
-=================================================Targets============================================================
+=================================================Targets===============================================
 1)Replacement for ngrok service with open source tunneling service
 2)Developement of vscode plugin
 3)Andoid application for secure remote connection
 
----------------------------------------------your contribution make connectivity free,easy and fast.----------------
+---------------------------------your contribution make connectivity free,easy and fast.----------------
 
 
