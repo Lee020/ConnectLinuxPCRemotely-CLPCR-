@@ -70,6 +70,6 @@ c)make app.py as system service
 2)Developement of vscode plugin
 3)Andoid application for secure remote connection
 
----------------------------------your contribution make connectivity free,easy and fast.----------------
+----------------your contribution make connectivity free,easy and fast.---------------
 
 
