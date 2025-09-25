@@ -78,7 +78,24 @@ Change permission to executable mode.
 
 c) Make app.py as system service
 --------------------------------
+sudo nano /etc/systemd/system/app.service
+--------
+[Unit]
+Description=App2 Python Service
+After=network.target
 
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/path/app2.py
+WorkingDirectory=/home/path
+Restart=on-failure
+User=user_name
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+
+--------
 
 How to Use
 ----------
